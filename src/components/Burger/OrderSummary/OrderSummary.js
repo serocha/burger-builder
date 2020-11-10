@@ -4,9 +4,9 @@ import Button from '../../UI/Button/Button';
 
 class OrderSummary extends Component {
 	// This could be functional. Only class to show if Modal rerenders only when needed.
-	componentDidUpdate() {
-		console.log('[OrderSummary] DidUpdate')
-	}
+	// componentDidUpdate() {
+	// 	console.log('[OrderSummary] DidUpdate')
+	// }
 
 	render () {
 		const ingredientSummary = Object.keys(this.props.ingredients)
